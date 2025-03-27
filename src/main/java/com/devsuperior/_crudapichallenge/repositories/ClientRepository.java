@@ -1,4 +1,4 @@
-package com.devsuperior._crudapichallenge;
+package com.devsuperior._crudapichallenge.repositories;
 
 import com.devsuperior._crudapichallenge.entities.Client;
 import org.springframework.data.jpa.repository.JpaRepository;

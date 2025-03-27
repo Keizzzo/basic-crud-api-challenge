@@ -1,0 +1,10 @@
+INSERT INTO tb_client (name, cpf, income, children, birth_date) VALUES ('Keizo Kobayashi', '12345678901', 1000.0, 1, '1993-04-14');
+INSERT INTO tb_client (name, cpf, income, children, birth_date) VALUES ('Adrian Balboa', '12384651100', 2342.0, 1, '2000-05-26');
+INSERT INTO tb_client (name, cpf, income, children, birth_date) VALUES ('Apollo Creed', '95978154841', 2343.0, 1, '1985-05-02');
+INSERT INTO tb_client (name, cpf, income, children, birth_date) VALUES ('Rocky Balboa', '65040840848', 10300.0, 1, '1962-08-07');
+INSERT INTO tb_client (name, cpf, income, children, birth_date) VALUES ('Goldmill Mickey', '56509590562', 34334.0, 1, '1989-11-04');
+INSERT INTO tb_client (name, cpf, income, children, birth_date) VALUES ('Paulie Pennino', '62669909595', 3422.0, 1, '2003-12-09');
+INSERT INTO tb_client (name, cpf, income, children, birth_date) VALUES ('Clubber Lang', '65956515640', 4242.0, 1, '1990-07-17');
+INSERT INTO tb_client (name, cpf, income, children, birth_date) VALUES ('Ivan Drago', '52662609505', 54544.0, 1, '1987-09-28');
+INSERT INTO tb_client (name, cpf, income, children, birth_date) VALUES ('Tommy Gun', '12150548044', 454545.0, 1, '1978-03-21');
+INSERT INTO tb_client (name, cpf, income, children, birth_date) VALUES ('Mason Dixon', '16456484651', 54.0, 1, '1998-02-20');

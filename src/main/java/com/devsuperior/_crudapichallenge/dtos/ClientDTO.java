@@ -2,18 +2,20 @@ package com.devsuperior._crudapichallenge.dtos;
 
 import com.devsuperior._crudapichallenge.entities.Client;
 
+import java.time.LocalDate;
+
 public class ClientDTO {
     private Long id;
     private String name;
     private String cpf;
     private Double income;
     private Integer children;
-    private String birthDate;
+    private LocalDate birthDate;
 
     public ClientDTO() {
     }
 
-    public ClientDTO(Long id, String name, String cpf, Double income, Integer children, String birthDate) {
+    public ClientDTO(Long id, String name, String cpf, Double income, Integer children, LocalDate birthDate) {
         this.id = id;
         this.name = name;
         this.cpf = cpf;
@@ -71,11 +73,11 @@ public class ClientDTO {
         this.children = children;
     }
 
-    public String getBirthDate() {
+    public LocalDate getBirthDate() {
         return birthDate;
     }
 
-    public void setBirthDate(String birthDate) {
+    public void setBirthDate(LocalDate birthDate) {
         this.birthDate = birthDate;
     }
 }

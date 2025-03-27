@@ -2,6 +2,8 @@ package com.devsuperior._crudapichallenge.entities;
 
 import jakarta.persistence.*;
 
+import java.time.LocalDate;
+
 @Entity
 @Table(name = "tb_client")
 public class Client {
@@ -10,16 +12,15 @@ public class Client {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
-    @Column(unique = true)
     private String cpf;
     private Double income;
     private Integer children;
-    private String birthDate;
+    private LocalDate birthDate;
     
     public Client() {
     }
 
-    public Client(Long id, String name, String cpf, Double income, Integer children, String birthDate) {
+    public Client(Long id, String name, String cpf, Double income, Integer children, LocalDate birthDate) {
         this.id = id;
         this.name = name;
         this.cpf = cpf;
@@ -68,11 +69,11 @@ public class Client {
         this.children = children;
     }
 
-    public String getBirthDate() {
+    public LocalDate getBirthDate() {
         return birthDate;
     }
 
-    public void setBirthDate(String birthDate) {
+    public void setBirthDate(LocalDate birthDate) {
         this.birthDate = birthDate;
     }
 }
