@@ -1,15 +1,19 @@
 package com.devsuperior._crudapichallenge.dtos;
 
 import com.devsuperior._crudapichallenge.entities.Client;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.PastOrPresent;
 
 import java.time.LocalDate;
 
 public class ClientDTO {
     private Long id;
+    @NotBlank(message = "Campo requerido")
     private String name;
     private String cpf;
     private Double income;
     private Integer children;
+    @PastOrPresent(message = "A data não pode ser futura")
     private LocalDate birthDate;
 
     public ClientDTO() {
